@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">呼朋唤友</string>
+    <string name="settings">设置</string>
+    <string name="urgentCall">紧急呼叫</string>
+    <string name="callFriends">呼朋唤友</string>
+    <string name="allFriends">联系人</string>
+    <string name="onlineFriends">在线好友</string>
+    <string name="offlineFriends">离线好友</string>
+    <string name="openSpeaker">开启扬声器</string>
+    <string name="closeSpeaker">关闭扬声器</string>
+    <string name="callingFriend">呼叫朋友</string>
+    <string name="sendCall">呼叫</string>
+    <string name="endCall">挂断</string>
+    <string name="chating">通话中</string>
+</resources>

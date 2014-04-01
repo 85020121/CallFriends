@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:name="SIP ID"
+        android:defaultValue="sip:18617372229@119.38.132.76"
+        android:key="idPref"
+        android:summary="SIP ID"
+        android:title="输入SIP ID" />
+    <EditTextPreference
+        android:name="SIP 域名"
+        android:defaultValue="sip:119.38.132.76"
+        android:key="domainPref"
+        android:summary="SIP服务器的域名"
+        android:title="输入域名" />
+        <EditTextPreference
+        android:name="Username"
+        android:defaultValue="85020121"
+        android:key="namePref"
+        android:summary="用户名"
+        android:title="输入账户名" />
+    <EditTextPreference
+        android:name="Password"
+        android:defaultValue="hesong"
+        android:key="passPref"
+        android:password="true"
+        android:summary="SIP账户的密码"
+        android:title="输入密码" />
+    <EditTextPreference
+        android:name="被叫方SIP域名"
+        android:defaultValue="sip:388887882638@119.38.132.76"
+        android:key="callAddressPref"
+        android:summary="被叫方的SIP域名"
+        android:title="输入被叫方域名" />
+
+</PreferenceScreen>
